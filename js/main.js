@@ -93,3 +93,7 @@ $(document).ready(function () {
     () => $track.css("animation-play-state", "running")
   );
 });
+
+window.addEventListener("load", function () {
+  document.getElementById("loader").style.display = "none";
+});
