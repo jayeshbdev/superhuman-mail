@@ -445,26 +445,8 @@ body {
     line-height: 1.5;
     padding-top: 8px;
     position: relative;
-    background: linear-gradient(180deg,
-            rgba(255, 255, 255, 0.0784) 0%,
-            rgba(255, 255, 255, 0.0392) 50%,
-            rgba(153, 153, 153, 0) 100%);
-    border-radius: 50%;
-}
-
-.how-it-works-content li .number::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 50%;
-    padding: 1px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 100%);
-    -webkit-mask:
-        linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-    pointer-events: none;
+    background: url(../images/works-circle-bg.svg) no-repeat;    
+    background-size: cover;
 }
 
 .how-it-works-content li h3 {
@@ -472,6 +454,7 @@ body {
     font-weight: 600;
     line-height: 120%;
     margin: 50px 0 16px 0;
+    color: #F3F4F7;
 }
 
 .how-it-works-content li p {

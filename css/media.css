@@ -268,6 +268,7 @@
 	.built-content .built-boxs {
 		padding: 24px;
 		text-align: center;
+		border-radius: 20px;
 	}
 
 	.built-content .built-boxs .icon {
@@ -370,6 +371,7 @@
 
 	.faq-section .accordion .accordion-item {
 		padding: 20px;
+		border-radius: 16px;
 	}
 
 	.faq-section .accordion .accordion-item .accordion-button {
@@ -411,6 +413,9 @@
 	.footer-bottom p {
 		font-size: 14px;
 		line-height: 26px;
+	}
+	.social-links {
+		gap: 6px;
 	}
 }
 
